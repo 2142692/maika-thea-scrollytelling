@@ -1,1 +1,1 @@
-let anim
+let anim=querySelector;

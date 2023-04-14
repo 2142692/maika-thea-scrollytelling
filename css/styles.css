@@ -1,3 +1,67 @@
+:root{
+    --vert:#98E9AF;
+    --bleu:#8DE0E5;
+    --rose:#FEA6F0;
+    --jaune:#FCFF80;
+    --mauve:#7768D0;
+    --rouge:#F6788F;
+}
+
+
 body{
-    overflow-x: hidden;
+    width: 500vw;
+overflow-y: hidden;
+}
+
+.flech{
+    width: 8%;
+    position: absolute;
+    top:400px;
+    
+}
+
+header{
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  aspect-ratio: 1/1;
+background-size: 100% 100%;
+  background-position: 0 0;
+background-image: url("../img/img_arriere_plan/fond.png");
+
+
+
+
+
+}
+
+.fond{
+width: 98%;
+}
+
+h1{
+    position: relative;
+    font-size: 800%;
+    color: #ffffff;
+    font-family: gloria hallelujah;
+    left: 90px;
+top:-100px;
+}
+
+h2{
+    position: absolute;
+    font-size: 500%;
+    color: #ffffff;
+    font-family: gloria hallelujah;
+    top:295px;
+    left:250px;
+}
+
+p{
+    color:white;
+    position: relative;
+    font-size: 13px;
+    top: 340px;
+left:390px;
 }

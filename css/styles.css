@@ -158,7 +158,7 @@ background-size: 100% 100%;
 
 }
 
-main #chap6{
+main #chap7{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: absolute;
@@ -167,6 +167,43 @@ main #chap6{
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 10220px;
+  left: 11930px;
 
+}
+
+.sol{
+    position: relative;
+    width: 100%;
+    top: 726px;
+}
+
+.soleil{
+    position: relative;
+  left: 1200px;
+bottom: 100px;
+}
+
+main #chap8{
+
+    background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  aspect-ratio: 1/1;
+background-size: 100% 100%;
+  background-position: 0 0;
+  left: 13634px;
+
+}
+
+#chap8 .soleil{
+    position: relative;
+  left: 1200px;
+bottom:200px;
+}
+
+.coline{
+    position: relative;
+    width: 100%;
+    top:580px;
 }

@@ -74,14 +74,66 @@ width: 100vw;
 
 main #chap1{
 
-    background-image: url("../img/img_arriere_plan/chapitre1.png");
+    background-image: url("../img/img_arriere_plan/ciel.png");
     position: absolute;
-    width: 100vw;
+    z-index: 2;
+    width: 150vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
   left: 1714px;
+}
+
+.jour{
+  position: relative;
+  left: 1200px;
+bottom: 500px;
+}
+
+.gaz{
+  position: relative;
+  width: 100%;
+  top: 395px;
+}
+
+.spritesheet{
+  z-index: 1;
+  position: relative;
+  left: 600px;
+top:450px;
+  width: 20vw;
+ height: 40vh;
+ aspect-ratio: 1/1;
+  background-size: 7600% 100%;
+  background-position: 0 0;
+  background-image: url("../img/img_personnages/spritesheet.png");
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-timing-function: steps(76);
+}
+
+.is-scrolling .spritesheet{
+
+  width: 20vw;
+ height: 40vh;
+ aspect-ratio: 1/1;
+  background-size: 7600% 100%;
+  background-position: 0 0;
+  background-image: url("../img/img_personnages/spritesheet.png");
+  animation-name: marche;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: steps(76);
+}
+
+@keyframes marche {
+  from { background-position: 0 0; }
+  to { background-position: -7600% 0; } 
+  /* Note: 19 images x 700px = 13300px */
 }
 
 main #chap2{

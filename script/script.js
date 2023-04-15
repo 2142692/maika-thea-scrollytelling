@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 const anim = 
 gsap.fromTo('.flech', 
 
@@ -6,3 +8,20 @@ gsap.fromTo('.flech',
   x: '5vw',
   duration: 1}
 );
+
+ 
+let body=document.querySelector("body");
+window.addEventListener("scroll", function() {
+  body.classList.add('is-scrolling');
+});
+
+
+
+const minuteur = window.setInterval(function() {
+  body.classList.remove('is-scrolling');
+}, 100);
+
+
+
+
+

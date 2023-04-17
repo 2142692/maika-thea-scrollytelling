@@ -10,7 +10,7 @@
 
 body{
     width: 600vw;
-height: 600vh;
+height: 900vh;
 }
 
 .flech{
@@ -29,11 +29,6 @@ header{
 background-size: 100% 100%;
   background-position: 0 0;
 background-image: url("../img/img_arriere_plan/fond.png");
-
-
-
-
-
 }
 
 .fond{
@@ -72,11 +67,15 @@ width: 100vw;
 
 }
 
+main section{
+  position:relative;
+}
+
 main #chap1{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
-    position: fixed;
     z-index: 2;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
@@ -140,13 +139,43 @@ top:450px;
 main #chap2{
 
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 3411px;
+  top: 809px;
+}
+
+
+.montagne1{
+  position: relative;
+  top:235px;
+  right: 80px;
+}
+
+.montagne2{
+  position: relative;
+  top:65px;
+  left: 850px;
+  width: 50%;
+  z-index: 1;
+}
+
+.montagne3{
+  position: relative;
+  top:-539px;
+
+  width: 200%;
+}
+
+.petit{
+  position: absolute;
+ bottom:150px;
+  left: -130px;
+z-index: 2;
+  width: 30%;
 }
 
 .gazon{
@@ -159,25 +188,96 @@ background-size: 100% 100%;
 main #chap3{
 
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 5113px;
+  top: 809px;
+}
+
+.lune{
+  position: relative;
+  left:500px;
+  top:50px;
+}
+
+.étoile.gros{
+  position: relative;
+  width: 10%;
+}
+
+.étoile.gros.no1{
+  top:-60px;
+}
+
+
+.étoile.gros.no2{
+  top:400px;
+  left:300px;
+}
+
+
+.étoile.gros.no3{
+  top:30px;
+  left:500px;
+}
+
+
+.étoile.moyen{
+  position: relative;
+  width: 5%;
+}
+
+.étoile.moyen.no1{
+  top:300px;
+  right:400px;
+}
+
+
+.étoile.moyen.no2{
+  top:300px;
+  left:800px;
+}
+
+
+.étoile.moyen.no3{
+  top:90px;
+  left:500px;
+}
+
+.étoile.petit{
+  position: relative;
+  width: 2%;
+}
+
+.étoile.petit.no1{
+  top:-60px;
+}
+
+
+.étoile.petit.no2{
+  top:500px;
+  left:500px;
+}
+
+
+.étoile.petit.no3{
+  top:90px;
+  left:500px;
 }
 
 main #chap4{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 6819px;
+  top: 809px;
 }
 
 .falaise{
@@ -190,38 +290,38 @@ background-size: 100% 100%;
 main #chap5{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 8520px;
+  top: 809px;
 }
 
 main #chap6{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 10226px;
+  top: 809px;
 
 }
 
 main #chap7{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 11930px;
+  top: 809px;
 
 }
 
@@ -240,13 +340,13 @@ bottom: 100px;
 main #chap8{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  left: 13634px;
+  top: 809px;
 
 }
 

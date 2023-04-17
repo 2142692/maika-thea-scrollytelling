@@ -12,7 +12,7 @@ gsap.fromTo('.flech',
 let header = document.querySelector("header");
 let section = document.querySelector("section");
 let ciel = document.querySelector("#chap1");
-const decor=gsap.to(ciel, {
+/*const decor=gsap.to(ciel, {
  y:"-100%", 
 
   scrollTrigger: {
@@ -23,7 +23,7 @@ const decor=gsap.to(ciel, {
     toggleActions: 'restart complete reverse reset',
     trigger: header,
   }, });
-
+*/
 const marche =   gsap.fromTo('.spritesheet', 
 
 { x: '-600px'}, 

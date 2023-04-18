@@ -58,8 +58,8 @@ p{
     color:white;
     position: relative;
     font-size: 13px;
-    top: 340px;
-left:390px;
+    top:10px;
+left:200px;
 }
 
  main{
@@ -81,7 +81,7 @@ main #chap1{
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 }
 
 .jour{
@@ -141,48 +141,50 @@ main #chap2{
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 }
 
 
 .montagne1{
-  position: relative;
-  top:235px;
-  right: 80px;
+  position: absolute;
+  top:490px;
+  right: 300px;
+  width: 200%;
 }
 
 .montagne2{
-  position: relative;
-  top:65px;
-  left: 850px;
-  width: 50%;
+  position: absolute;
+  top:543px;
+  left: 640px;
+  width: 60%;
   z-index: 1;
 }
 
 .montagne3{
-  position: relative;
-  top:-539px;
-  
-  min-width: 200%;
+  position: absolute;
+  top:385px;
+  right: -100px;
 }
 
 .petit{
   position: absolute;
- bottom:150px;
-  left: -130px;
+ bottom:190px;
+  left: -110px;
 z-index: 2;
   width: 30%;
 }
 
 .gazon{
-    position: relative;
+    position: absolute;
     width: 100%;
+    height:15%;
+  top:700px;
+  z-index: 2;
     
-    top: 726px;
 }
 
 main #chap3{
@@ -190,17 +192,25 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
+}
+
+.face{
+  position: absolute;
+  width: 65%;
+  right: 300px;
+  bottom: 0px;
+  z-index: 1;
 }
 
 .lune{
   position: relative;
-  left:500px;
-  top:50px;
+  left:300px;
+  top:120px;
 }
 
 .étoile.gros{
@@ -209,13 +219,14 @@ background-size: 100% 100%;
 }
 
 .étoile.gros.no1{
-  top:-60px;
+  top:-10px;
+  left: 30px;
 }
 
 
 .étoile.gros.no2{
-  top:400px;
-  left:300px;
+  top:300px;
+  left:30px;
 }
 
 
@@ -231,7 +242,7 @@ background-size: 100% 100%;
 }
 
 .étoile.moyen.no1{
-  top:300px;
+  top:400px;
   right:400px;
 }
 
@@ -243,8 +254,8 @@ background-size: 100% 100%;
 
 
 .étoile.moyen.no3{
-  top:90px;
-  left:500px;
+  top:300px;
+  left:400px;
 }
 
 .étoile.petit{
@@ -264,7 +275,7 @@ background-size: 100% 100%;
 
 
 .étoile.petit.no3{
-  top:90px;
+  top:0px;
   left:500px;
 }
 
@@ -277,13 +288,27 @@ main #chap4{
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
+}
+
+.solei{
+  position: absolute;
+  bottom:370px;
+  right: 1100px;
+}
+
+.fall{
+  position: relative;
+  width: 70%;
+  top:19px;
+  left:360px
 }
 
 .falaise{
     position: relative;
     width: 60%;
-    top: 726px;
+    top: 650px;
+    z-index: 1;
 }
 
 
@@ -292,23 +317,57 @@ main #chap5{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 }
+
+
+.tomber{
+  position: relative;
+  width: 70%;
+  bottom: 800px;
+left:280px;
+}
+
+.nuage{
+  width: 40%;
+  position: relative;
+}
+
+.nuage.no1{
+
+  top:200px
+}
+
+.nuage.no2{
+left:250px;
+  top:1300px
+}
+
+.nuage.no3{
+  left:50px;
+    top:600px
+  }
+  
+  .nuage.no4{
+    left:250px;
+      top:130px
+    }
+    
 
 main #chap6{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 
 }
 
@@ -321,14 +380,14 @@ main #chap7{
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 
 }
 
 .sol{
     position: relative;
     width: 100%;
-    top: 726px;
+    top: 671px;
 }
 
 .soleil{
@@ -346,7 +405,7 @@ main #chap8{
   aspect-ratio: 1/1;
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 809px;
+  top: 730px;
 
 }
 
@@ -359,5 +418,5 @@ bottom:200px;
 .coline{
     position: relative;
     width: 100%;
-    top:580px;
+    top:591px;
 }

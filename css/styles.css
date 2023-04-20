@@ -335,6 +335,7 @@ left:280px;
 .nuage{
   width: 40%;
   position: relative;
+  z-index: 1;
 }
 
 .nuage.no1{
@@ -354,7 +355,7 @@ left:250px;
   
   .nuage.no4{
     left:250px;
-      top:130px
+      top:240px
     }
     
 

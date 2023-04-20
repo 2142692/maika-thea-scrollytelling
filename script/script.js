@@ -48,3 +48,54 @@ const minuteur = window.setInterval(function() {
 
 }, 100);
 
+gsap.fromTo('.nuage.no1', 
+
+{ x: '-100%'}, 
+{ repeat: -1,
+x: '1500px',
+duration: 15}
+          
+);
+
+gsap.fromTo('.nuage.no2', 
+
+{ x: '100%'}, 
+{ repeat: -1,
+x: '-1500px',
+duration: 15}
+          
+);
+
+gsap.fromTo('.nuage.no3', 
+
+{ x: '-100%'}, 
+{ repeat: -1,
+x: '1500px',
+duration: 15}
+          
+);
+
+gsap.fromTo('.nuage.no4', 
+
+{ x: '100%'}, 
+{ repeat: -1,
+x: '-1500px',
+duration: 15}
+          
+);
+
+gsap.fromTo('.tomber',
+           { rotation: 0 },
+           { rotation: 360, 
+           duration: 6, 
+           repeat: -1,
+           ease: "none"});
+
+           gsap.fromTo('.tomber', 
+
+{ y: '-5%'}, 
+{ repeat: -1,
+y: '250%',
+duration: 10}
+          
+);

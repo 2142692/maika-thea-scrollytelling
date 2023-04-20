@@ -11,6 +11,7 @@
 body{
     width: 600vw;
 height: 900vh;
+
 }
 
 .flech{
@@ -161,7 +162,7 @@ background-size: 100% 100%;
   top:543px;
   left: 640px;
   width: 60%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .montagne3{
@@ -170,11 +171,11 @@ background-size: 100% 100%;
   right: -100px;
 }
 
-.petit{
+.petite{
   position: absolute;
  bottom:190px;
   left: -110px;
-z-index: 2;
+z-index: 1;
   width: 30%;
 }
 
@@ -397,13 +398,13 @@ background-size: 100% 100%;
   z-index: 1;
   position: relative;
   left: 600px;
-top:0px;
+top:140px;
   width: 20vw;
  height: 40vh;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
-  background-image: url("../img/img_personnages/marche_ball.png");
+  background-image: url("../img/img_personnages/marcher_balon_sprite.png");
   animation-name: marche;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -418,7 +419,7 @@ top:0px;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
-  background-image: url("../img/img_personnages/marche_ball.png");
+  background-image: url("../img/img_personnages/marcher_balon_sprite.png");
   animation-name: marche;
   animation-duration: 1s;
   animation-iteration-count: infinite;

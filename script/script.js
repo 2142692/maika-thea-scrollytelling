@@ -59,7 +59,28 @@ const minuteur = window.setInterval(function() {
 }, 100);
 
 
+gsap.timeline().fromTo('.petite', 
 
+{ x: '0%', y:"0%"}, 
+{ 
+x: '250px', y:"200px", duration: 2})
+
+.to('.petite', 
+
+{ 
+x: '440px', y:"-20px", duration: 2})
+
+.to('.petite', 
+{ x: '680px', y:"200px", duration: 2})
+
+.to('.petite', 
+{ x: '810px', y:"100px", duration: 2})
+
+.to('.petite', 
+{ x: '935px', y:"200px", duration: 2})
+
+.to('.petite', 
+{ x: '1180px', y:"-80px", duration: 2});
 
 
 
@@ -136,27 +157,28 @@ gsap.fromTo(".étoile.gros",
  ease: "none"});
 
 
- gsap.timeline().fromTo('.petite', 
+ gsap.timeline().fromTo('.vole', 
 
-{ x: '0%', y:"0%"}, 
+ { y: '0%'}, 
+ { 
+ y: '-130%',
+ duration: 10}
+           
+ )
+
+ .fromTo('.oiseau', 
+
+{ x: '-100%'}, 
 { 
-x: '250px', y:"200px", duration: 2})
+x: '1500px',
+duration: 1},"-=1")
 
-.to('.petite', 
+.fromTo('.vole', 
 
-
-{ 
-x: '440px', y:"-20px", duration: 2})
-
-.to('.petite', 
-{ x: '680px', y:"200px", duration: 2})
-
-.to('.petite', 
-{ x: '810px', y:"100px", duration: 2})
-
-.to('.petite', 
-{ x: '935px', y:"200px", duration: 2})
-
-.to('.petite', 
-{ x: '1180px', y:"-80px", duration: 2})
+ { y: '-130%'}, 
+ { 
+ y: '70%',
+ duration: 1}
+           
+ )
 

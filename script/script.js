@@ -63,13 +63,13 @@ gsap.timeline().fromTo('.petite',
 
 { x: '0%', y:"0%"}, 
 { 
-x: '250px', y:"200px", duration: 2})
+x: '30%', y:"30%", duration: 2})
 
 .to('.petite', 
 
 { 
-x: '440px', y:"-20px", duration: 2})
-
+x: '56%', y:"-15%", duration: 2})
+/*
 .to('.petite', 
 { x: '680px', y:"200px", duration: 2})
 
@@ -82,7 +82,7 @@ x: '440px', y:"-20px", duration: 2})
 .to('.petite', 
 { x: '1180px', y:"-80px", duration: 2});
 
-
+*/
 
 gsap.fromTo('.nuage.no1', 
 

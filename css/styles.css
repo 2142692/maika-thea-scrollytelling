@@ -23,10 +23,10 @@ height: 900vh;
 
 header{
     z-index: 1;
-    position: absolute;
-    max-width: 1920vw;
+    position: relative;
+    width: 100vw;
     height: 100vh;
-  aspect-ratio: 1/1;
+ 
 background-size: 100% 100%;
   background-position: 0 0;
 background-image: url("../img/img_arriere_plan/fond.png");
@@ -64,12 +64,15 @@ left:200px;
 }
 
  main{
-width: 100vw;
+
+max-width: 1920px;
 
 }
 
 main section{
   position:relative;
+  border: 2px solid red;
+  width: 100%;
 }
 
 main #chap1{
@@ -77,12 +80,12 @@ main #chap1{
     background-image: url("../img/img_arriere_plan/ciel.png");
     z-index: 2;
     position: relative;
-    width: 100vw;
+  
     height: 100vh;
-  aspect-ratio: 1/1;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+ /* top: 730px; */
 }
 
 .jour{
@@ -141,49 +144,52 @@ main #chap2{
 
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
-    width: 100vw;
-    height: 110vh;
-  aspect-ratio: 1/1;
+ 
+    height: 100vh;
+ 
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 }
 
 
 .montagne1{
   position: absolute;
-  top:490px;
+  bottom:134px;
   right: 300px;
   width: 200%;
+  z-index: 2;
 }
 
 .montagne2{
   position: absolute;
-  top:543px;
-  left: 640px;
+  bottom:134px;
+  left: 770px;
   width: 60%;
-  z-index: 2;
+  z-index: 20;
 }
 
 .montagne3{
   position: absolute;
-  top:385px;
-  right: -100px;
+  bottom:134px;
+  right: -50px;
+  z-index: 8;
 }
 
 .petite{
   position: absolute;
- bottom:190px;
-  left: -110px;
-z-index: 1;
+ bottom:100px;
+  left: -130px;
+z-index: 10;
   width: 30%;
+  border: 2px solid red;
 }
 
 .gazon{
     position: absolute;
     width: 100%;
     height:15%;
-  top:700px;
+    bottom:0%;
   z-index: 2;
     
 }
@@ -192,12 +198,12 @@ main #chap3{
 
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
-    width: 100vw;
-    height: 120vh;
-  aspect-ratio: 1/1;
+  
+    height: 100vh;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+  
 }
 
 .face{
@@ -284,12 +290,12 @@ main #chap4{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
-    width: 100vw;
+  
     height: 100vh;
-  aspect-ratio: 1/1;
+ 
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 }
 
 .solei{
@@ -317,12 +323,12 @@ main #chap5{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
-    width: 100vw;
+   
     height: 250vh;
-  aspect-ratio: 1/1;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 }
 
 
@@ -364,12 +370,12 @@ main #chap6{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
-    width: 100vw;
+    
     height: 250vh;
-  aspect-ratio: 1/1;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 
 }
 
@@ -391,12 +397,12 @@ main #chap7{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
-    width: 100vw;
+ 
     height: 130vh;
-  aspect-ratio: 1/1;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 
 }
 
@@ -457,12 +463,12 @@ main #chap8{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
-    width: 100vw;
+  
     height: 100vh;
-  aspect-ratio: 1/1;
+
 background-size: 100% 100%;
   background-position: 0 0;
-  top: 730px;
+
 
 }
 

@@ -3,9 +3,9 @@ gsap.registerPlugin(ScrollTrigger);
 const anim = 
 gsap.fromTo('.flech', 
 
-  { x: '0%'}, 
+  { y: '0%'}, 
   { repeat: -1,
-  x: '5vw',
+  y: '5vw',
   duration: 1}
 );
 

@@ -75,6 +75,16 @@ main section{
   width: 100%;
 }
 
+ span{
+  color:white;
+    position: absolute;
+    font-size: 37px;
+    bottom:800px;
+    left:200px;
+    z-index: 1;
+    font-family: gloria hallelujah;
+}
+
 main #chap1{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
@@ -88,11 +98,15 @@ background-size: 100% 100%;
  /* top: 730px; */
 }
 
+#chap1 span{
+  top:50px;
+}
+
 .jour{
   position: absolute;
   width: 15%;
   left: 1200px;
-bottom: 570px;
+bottom: 470px;
 }
 
 .gaz{
@@ -301,10 +315,15 @@ background-size: 100% 100%;
 
 }
 
+#chap4 span{
+  font-size: 30px;
+  top:30px;
+}
+
 .solei{
   position: absolute;
   bottom:470px;
-  right: 1100px;
+  right: 300px;
 }
 
 .fall{

@@ -63,26 +63,26 @@ gsap.timeline().fromTo('.petite',
 
 { x: '0%', y:"0%"}, 
 { 
-x: '30%', y:"30%", duration: 2})
+x: '44%', y:"46%", duration: 2})
 
 .to('.petite', 
 
 { 
-x: '56%', y:"-15%", duration: 2})
-/*
-.to('.petite', 
-{ x: '680px', y:"200px", duration: 2})
+x: '77%', y:"-5%", duration: 2})
 
 .to('.petite', 
-{ x: '810px', y:"100px", duration: 2})
+{ x: '120%', y:"46%", duration: 2})
 
 .to('.petite', 
-{ x: '935px', y:"200px", duration: 2})
+{ x: '140%', y:"20%", duration: 2})
 
 .to('.petite', 
-{ x: '1180px', y:"-80px", duration: 2});
+{ x: '160%', y:"46%", duration: 2})
 
-*/
+.to('.petite', 
+{ x: '204%', y:"-20%", duration: 2});
+
+
 
 gsap.fromTo('.nuage.no1', 
 
@@ -127,7 +127,7 @@ gsap.fromTo('.tomber',
 
            gsap.fromTo('.tomber', 
 
-{ y: '-5%'}, 
+{ y: '-35%'}, 
 { repeat: -1,
 y: '250%',
 duration: 10}
@@ -159,9 +159,9 @@ gsap.fromTo(".étoile.gros",
 
  gsap.timeline().fromTo('.vole', 
 
- { y: '0%'}, 
+ { y: '10%'}, 
  { 
- y: '-130%',
+ y: '-150%',
  duration: 10}
            
  )
@@ -173,9 +173,9 @@ gsap.fromTo(".étoile.gros",
 x: '1500px',
 duration: 1},"-=1")
 
-.fromTo('.vole', 
+.to('.vole', 
 
- { y: '-130%'}, 
+ 
  { 
  y: '70%',
  duration: 1}

@@ -9,8 +9,8 @@
 
 
 body{
-    width: 600vw;
-height: 900vh;
+   width: 1920px;
+height: 100vh;
 
 }
 
@@ -24,9 +24,8 @@ height: 900vh;
 header{
     z-index: 1;
     position: relative;
-    width: 100vw;
-    height: 100vh;
- 
+    width: 100%;
+    height: 110%;
 background-size: 100% 100%;
   background-position: 0 0;
 background-image: url("../img/img_arriere_plan/fond.png");
@@ -38,12 +37,12 @@ width: 98%;
 
 h1{
     position: relative;
-    font-size: 800%;
+    font-size: 600%;
    width: 100vw;
     color: #ffffff;
     font-family: gloria hallelujah;
-    left: 50px;
-top:-10vh;
+    left: 400px;
+top:10vh;
 }
 
 h2{
@@ -59,19 +58,20 @@ p{
     color:white;
     position: relative;
     font-size: 13px;
-    top:10px;
-left:200px;
+    top:510px;
+left:500px;
 }
 
  main{
 
 max-width: 1920px;
+max-height: 1080px;
 
 }
 
 main section{
   position:relative;
-  border: 2px solid red;
+  border: 1px solid red;
   width: 100%;
 }
 
@@ -81,7 +81,7 @@ main #chap1{
     z-index: 2;
     position: relative;
   
-    height: 100vh;
+    height: 120vh;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -90,24 +90,25 @@ background-size: 100% 100%;
 
 .jour{
   position: relative;
+  width: 15%;
   left: 1200px;
-bottom: 500px;
+bottom: 400px;
 }
 
 .gaz{
-  position: relative;
+  position: absolute;
   width: 100%;
 height:15%;
-  top:380px;
+bottom:0%;
 }
 
 .spritesheet{
   z-index: 1;
   position: relative;
   left: 600px;
-top:450px;
-  width: 20vw;
- height: 40vh;
+top:500px;
+  width: 20%;
+ height: 40%;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
@@ -121,8 +122,8 @@ top:450px;
 
 .is-scrolling .spritesheet{
 
-  width: 20vw;
- height: 40vh;
+  width: 20%;
+ height: 40%;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
@@ -145,7 +146,7 @@ main #chap2{
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
  
-    height: 100vh;
+    height: 140vh;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -155,7 +156,7 @@ background-size: 100% 100%;
 
 .montagne1{
   position: absolute;
-  bottom:134px;
+  bottom:100px;
   right: 300px;
   width: 200%;
   z-index: 2;
@@ -163,23 +164,24 @@ background-size: 100% 100%;
 
 .montagne2{
   position: absolute;
-  bottom:134px;
-  left: 770px;
-  width: 60%;
+  bottom:100px;
+  left: 1100px;
+  width: 40%;
   z-index: 20;
 }
 
 .montagne3{
   position: absolute;
-  bottom:134px;
-  right: -50px;
+  width: 100%;
+  bottom:100px;
+  right: 0px;
   z-index: 8;
 }
 
 .petite{
   position: absolute;
- bottom:100px;
-  left: -130px;
+ bottom:135px;
+  left: 160px;
 z-index: 10;
   width: 30%;
   border: 2px solid red;
@@ -199,7 +201,7 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
   
-    height: 100vh;
+    height: 120vh;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -209,7 +211,7 @@ background-size: 100% 100%;
 .face{
   position: absolute;
   width: 65%;
-  right: 300px;
+  right: 350px;
   bottom: 0px;
   z-index: 1;
 }
@@ -226,14 +228,14 @@ background-size: 100% 100%;
 }
 
 .étoile.gros.no1{
-  top:-10px;
-  left: 30px;
+  top:60px;
+  left: 180px;
 }
 
 
 .étoile.gros.no2{
   top:300px;
-  left:30px;
+  left:300px;
 }
 
 
@@ -272,6 +274,7 @@ background-size: 100% 100%;
 
 .étoile.petit.no1{
   top:-60px;
+  right: 200px;
 }
 
 
@@ -291,7 +294,7 @@ main #chap4{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
   
-    height: 100vh;
+    height: 120vh;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -300,21 +303,21 @@ background-size: 100% 100%;
 
 .solei{
   position: absolute;
-  bottom:370px;
+  bottom:470px;
   right: 1100px;
 }
 
 .fall{
   position: relative;
   width: 70%;
-  top:19px;
-  left:360px
+  bottom:40px;
+  left:450px
 }
 
 .falaise{
     position: relative;
     width: 60%;
-    top: 650px;
+    top: 773px;
     z-index: 1;
 }
 
@@ -388,9 +391,9 @@ background-size: 100% 100%;
 
 .vole{
   position: relative;
-  width: 70%;
+  width: 60%;
  top: 700px;
-left:190px;
+left:450px;
 }
 
 main #chap7{
@@ -411,9 +414,9 @@ background-size: 100% 100%;
   z-index: 1;
   position: relative;
   left: 600px;
-top:140px;
-  width: 20vw;
- height: 40vh;
+top:50px;
+  width: 20%;
+ height: 40%;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
@@ -427,8 +430,8 @@ top:140px;
 
 .is-scrolling .spritesheet2{
 
-  width: 20vw;
- height: 40vh;
+  width: 20%;
+ height: 40%;
  aspect-ratio: 1/1;
   background-size: 7600% 100%;
   background-position: 0 0;
@@ -449,7 +452,7 @@ top:140px;
 .sol{
     position: relative;
     width: 100%;
-    height: 20%;
+    height:20%;
     top: 866px;
 }
 
@@ -464,7 +467,7 @@ main #chap8{
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
   
-    height: 100vh;
+    height: 160vh;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -474,8 +477,8 @@ background-size: 100% 100%;
 
 .couple{
   position: absolute;
-  top:206px;
-  right:294px;
+  top:490px;
+  right:380px;
   
   width: 65%;
 }
@@ -489,5 +492,5 @@ bottom:200px;
 .coline{
     position: relative;
     width: 100%;
-    top:591px;
+    bottom:-80%;
 }

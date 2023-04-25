@@ -10,7 +10,7 @@
 
 body{
    width: 1920px;
-height: 100vh;
+height: 1080px;
 
 }
 
@@ -65,7 +65,7 @@ left:500px;
  main{
 
 max-width: 1920px;
-max-height: 1080px;
+
 
 }
 
@@ -91,7 +91,7 @@ main #chap1{
     z-index: 2;
     position: relative;
   
-    height: 120vh;
+    height: 1000px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -160,7 +160,7 @@ main #chap2{
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
  
-    height: 140vh;
+    height: 1080px;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -215,7 +215,7 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
   
-    height: 120vh;
+    height: 1100px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -308,7 +308,7 @@ main #chap4{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
   
-    height: 120vh;
+    height:1080px;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -329,14 +329,14 @@ background-size: 100% 100%;
 .fall{
   position: relative;
   width: 70%;
-  bottom:40px;
+  bottom:-14px;
   left:450px
 }
 
 .falaise{
     position: relative;
     width: 60%;
-    top: 773px;
+    top: 830px;
     z-index: 1;
 }
 
@@ -346,7 +346,7 @@ main #chap5{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
    
-    height: 250vh;
+    height: 2400px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -393,7 +393,7 @@ main #chap6{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
     
-    height: 250vh;
+    height: 2400px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -420,7 +420,7 @@ main #chap7{
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
  
-    height: 130vh;
+    height: 1000px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -486,7 +486,7 @@ main #chap8{
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
   
-    height: 160vh;
+    height: 1080px;
 
 background-size: 100% 100%;
   background-position: 0 0;

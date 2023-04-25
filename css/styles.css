@@ -72,7 +72,7 @@ max-width: 1920px;
 
 main section{
   position:relative;
-  border: 1px solid red;
+  
   width: 100%;
 }
 
@@ -86,6 +86,8 @@ main section{
     font-family: gloria hallelujah;
 }
 
+
+/*chapitre 1*/
 main #chap1{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
@@ -156,6 +158,7 @@ top:500px;
 
 }
 
+/*chapitre 2*/
 main #chap2{
 
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
@@ -199,7 +202,7 @@ background-size: 100% 100%;
   left: 160px;
 z-index: 10;
   width: 30%;
-  border: 2px solid red;
+  
 }
 
 .gazon{
@@ -211,6 +214,7 @@ z-index: 10;
     
 }
 
+/*chapitre 3*/
 main #chap3{
 
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
@@ -225,7 +229,7 @@ background-size: 100% 100%;
 
 #chap3 span{
   
-  top: 70px
+  top: 50px
 }
 
 .face{
@@ -309,6 +313,8 @@ background-size: 100% 100%;
   left:500px;
 }
 
+
+/*chapitre 4*/
 main #chap4{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
@@ -346,7 +352,7 @@ background-size: 100% 100%;
     z-index: 1;
 }
 
-
+/*chapitre 5*/
 main #chap5{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
@@ -359,6 +365,10 @@ background-size: 100% 100%;
 
 }
 
+#chap5 span{
+ top:100px;
+color: var(--jaune);
+}
 
 .tomber{
   position: relative;
@@ -394,6 +404,7 @@ left:250px;
     }
     
 
+    /*chapitre 6*/
 main #chap6{
 
     background-image: url("../img/img_arriere_plan/ciel.png");
@@ -407,11 +418,18 @@ background-size: 100% 100%;
 
 }
 
+#chap6 span{
+  top:100px;
+ color: var(--jaune);
+ z-index: 1;
+ }
+
 .oiseau{
   position: absolute;
   right: 800px;
-  bottom: 1080px;
+  top: 0px;
   width: 60%;
+  z-index: 2;
 }
 
 .vole{
@@ -419,8 +437,11 @@ background-size: 100% 100%;
   width: 60%;
  top: 700px;
 left:450px;
+
 }
 
+
+/*chapitre 7*/
 main #chap7{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
@@ -483,10 +504,12 @@ top:50px;
 
 .soleil{
     position: relative;
-  left: 1200px;
+  left: 1400px;
 bottom: 100px;
 }
 
+
+/*chapitre 8*/
 main #chap8{
 
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
@@ -502,7 +525,7 @@ background-size: 100% 100%;
 
 .couple{
   position: absolute;
-  top:490px;
+  top:390px;
   right:380px;
   
   width: 65%;
@@ -510,7 +533,7 @@ background-size: 100% 100%;
 
 #chap8 .soleil{
     position: relative;
-  left: 1200px;
+  left: 1500px;
 bottom:200px;
 }
 

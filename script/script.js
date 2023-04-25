@@ -24,6 +24,8 @@ let ciel = document.querySelector("#chap1");
     trigger: header,
   }, });
 */
+
+/*spritesheet*/
 const marche =   gsap.fromTo('.spritesheet', 
 
 { x: '-900px'}, 
@@ -38,7 +40,7 @@ const marche2 =   gsap.fromTo('.spritesheet2',
 
 { x: '-900px'}, 
 {  toggleActions: 'restart complete reverse reset',
-x: '900px',
+x: '1100px',
 repeat:-1,
 duration: 10}
           
@@ -59,6 +61,7 @@ const minuteur = window.setInterval(function() {
 }, 100);
 
 
+/*chapitre 2*/
 gsap.timeline().fromTo('.petite', 
 
 { x: '0%', y:"0%"}, 
@@ -83,7 +86,7 @@ x: '77%', y:"-5%", duration: 2})
 { x: '204%', y:"-20%", duration: 2});
 
 
-
+/*chapitre 5*/
 gsap.fromTo('.nuage.no1', 
 
 { x: '-100%'}, 
@@ -134,6 +137,7 @@ duration: 10}
           
 );
 
+/*chapitre 3*/
 gsap.fromTo(".étoile.gros",
  { scaleY: "10%", scaleX: "10%"  }, {scaleY: "100%", scaleX: "100%",
  duration: 2, 
@@ -156,7 +160,7 @@ gsap.fromTo(".étoile.gros",
  repeat: -1, yoyo: true,
  ease: "none"});
 
-
+/*chapitre 6*/
  gsap.timeline().fromTo('.vole', 
 
  { y: '10%'}, 
@@ -170,14 +174,14 @@ gsap.fromTo(".étoile.gros",
 
 { x: '-100%'}, 
 { 
-x: '1500px',
+x: '1920px',
 duration: 1},"-=1")
 
 .to('.vole', 
 
  
  { 
- y: '70%',
+ y: '100%',
  duration: 1}
            
  )

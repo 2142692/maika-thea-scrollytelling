@@ -12,6 +12,7 @@ body{
    width: 1920px;
 height: 1080px;
 
+
 }
 
 .flech{
@@ -58,7 +59,7 @@ p{
     color:white;
     position: absolute;
     font-size: 13px;
-    top:730px;
+    top:1100px;
 left:500px;
 }
 
@@ -105,8 +106,8 @@ background-size: 100% 100%;
 .jour{
   position: absolute;
   width: 15%;
-  left: 1200px;
-bottom: 470px;
+  left: 1400px;
+bottom: 580px;
 }
 
 .gaz{
@@ -179,7 +180,7 @@ background-size: 100% 100%;
 .montagne2{
   position: absolute;
   bottom:100px;
-  left: 1100px;
+  left: 1150px;
   width: 40%;
   z-index: 20;
 }
@@ -215,11 +216,16 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
   
-    height: 1100px;
+    height: 1200px;
 
 background-size: 100% 100%;
   background-position: 0 0;
   
+}
+
+#chap3 span{
+  
+  top: 70px
 }
 
 .face{
@@ -232,7 +238,7 @@ background-size: 100% 100%;
 
 .lune{
   position: relative;
-  left:300px;
+  left:560px;
   top:120px;
 }
 

@@ -28,7 +28,7 @@ const marche =   gsap.fromTo('.spritesheet',
 
 { x: '-900px'}, 
 {  toggleActions: 'restart complete reverse reset',
-x: '900px',
+x: '1100px',
 repeat:-1,
 duration: 10}
           

@@ -11,7 +11,7 @@
 body{
    width: 1920px;
 height: 1080px;
-
+overflow-x: hidden;
 
 }
 
@@ -19,7 +19,7 @@ height: 1080px;
     width: 6%;
     position: absolute;
     top:480px;
-    left: 900px;
+    left: 850px;
 }
 
 header{
@@ -242,73 +242,73 @@ background-size: 100% 100%;
 
 .lune{
   position: relative;
-  left:560px;
+  left:300px;
   top:120px;
 }
 
-.étoile.gros{
+.etoile.gros{
   position: relative;
   width: 10%;
 }
 
-.étoile.gros.no1{
+.etoile.gros.no1{
   top:60px;
   left: 180px;
 }
 
 
-.étoile.gros.no2{
+.etoile.gros.no2{
   top:300px;
   left:300px;
 }
 
 
-.étoile.gros.no3{
+.etoile.gros.no3{
   top:30px;
   left:500px;
 }
 
 
-.étoile.moyen{
+.etoile.moyen{
   position: relative;
   width: 5%;
 }
 
-.étoile.moyen.no1{
+.etoile.moyen.no1{
   top:400px;
   right:400px;
 }
 
 
-.étoile.moyen.no2{
+.etoile.moyen.no2{
   top:300px;
   left:800px;
 }
 
 
-.étoile.moyen.no3{
+.etoile.moyen.no3{
   top:300px;
   left:400px;
 }
 
-.étoile.petit{
+.etoile.petit{
   position: relative;
   width: 2%;
 }
 
-.étoile.petit.no1{
+.etoile.petit.no1{
   top:-60px;
   right: 200px;
 }
 
 
-.étoile.petit.no2{
+.etoile.petit.no2{
   top:500px;
   left:500px;
 }
 
 
-.étoile.petit.no3{
+.etoile.petit.no3{
   top:0px;
   left:500px;
 }
@@ -421,7 +421,7 @@ background-size: 100% 100%;
 #chap6 span{
   top:100px;
  color: var(--jaune);
- z-index: 1;
+ z-index: 3;
  }
 
 .oiseau{
@@ -541,4 +541,27 @@ bottom:200px;
     position: relative;
     width: 100%;
     bottom:-80%;
+}
+
+.coeur{
+  position: relative;
+  bottom:500px;
+  right: 20px;
+}
+
+
+main #fin{
+
+  background-image: url("../img/img_arriere_plan/ciel_nuit.png");
+  position: relative;
+  height: 990px;
+top:60px;
+background-size: 100% 100%;
+background-position: 0 0;
+}
+
+#fin span{
+  font-size: 400px;
+  top: 170px;
+  left: 400px;
 }

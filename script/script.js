@@ -9,21 +9,8 @@ gsap.fromTo('.flech',
   duration: 1}
 );
 
-let header = document.querySelector("header");
-let section = document.querySelector("section");
-let ciel = document.querySelector("#chap1");
-/*const decor=gsap.to(ciel, {
- y:"-100%", 
 
-  scrollTrigger: {
-    markers: true,
-    scrub: true,
-    start: 'top 0%',
-    end: 'bottom 10%',
-    toggleActions: 'restart complete reverse reset',
-    trigger: header,
-  }, });
-*/
+
 
 /*spritesheet*/
 const marche =   gsap.fromTo('.spritesheet', 
@@ -86,6 +73,32 @@ x: '77%', y:"-5%", duration: 2})
 { x: '204%', y:"-20%", duration: 2});
 
 
+
+
+/*chapitre 3*/
+gsap.fromTo(".etoile.gros",
+ { scaleY: "10%", scaleX: "10%"  }, {scaleY: "100%", scaleX: "100%",
+ duration: 2, 
+ repeat: -1, yoyo: true, });
+
+ gsap.fromTo(".etoile.moyen",
+ { scaleY: "100%", scaleX: "100%"  }, {scaleY: "40%", scaleX: "40%",
+ duration: 1, 
+ repeat: -1, yoyo: true, });
+
+ gsap.fromTo(".etoile.petit",
+ { scaleY: "100%", scaleX: "100%"  }, {scaleY: "200%", scaleX: "200%",
+ duration: 1, 
+ repeat: -1, yoyo: true, });
+
+ /*chapitre 4*/
+ gsap.fromTo('.fall',
+ { rotation: 0},
+ { rotation: 12, 
+ duration: 1, 
+ repeat: -1, yoyo: true,
+ ease: "none"});
+
 /*chapitre 5*/
 gsap.fromTo('.nuage.no1', 
 
@@ -137,28 +150,6 @@ duration: 10}
           
 );
 
-/*chapitre 3*/
-gsap.fromTo(".étoile.gros",
- { scaleY: "10%", scaleX: "10%"  }, {scaleY: "100%", scaleX: "100%",
- duration: 2, 
- repeat: -1, yoyo: true, });
-
- gsap.fromTo(".étoile.moyen",
- { scaleY: "100%", scaleX: "100%"  }, {scaleY: "40%", scaleX: "40%",
- duration: 1, 
- repeat: -1, yoyo: true, });
-
- gsap.fromTo(".étoile.petit",
- { scaleY: "100%", scaleX: "100%"  }, {scaleY: "200%", scaleX: "200%",
- duration: 1, 
- repeat: -1, yoyo: true, });
-
- gsap.fromTo('.fall',
- { rotation: 0},
- { rotation: 12, 
- duration: 1, 
- repeat: -1, yoyo: true,
- ease: "none"});
 
 /*chapitre 6*/
  gsap.timeline().fromTo('.vole', 

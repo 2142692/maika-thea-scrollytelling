@@ -10,40 +10,80 @@ gsap.fromTo('.flech',
 );
 
 
+/*chapitre 1*/
+
+gsap.to('#chap1', {
+scrollTrigger: {
+trigger: "#chap1",
+markers: true,
+start: "0% 0%",
+end: "2300px 0%",
+pin: true
+}
+}
+
+);
+
 
 
 /*spritesheet*/
-const marche =   gsap.fromTo('.spritesheet', 
+const sprite = document.querySelector(".spritesheet");
+let isScrolling;
+const marche =   gsap.to('.spritesheet', 
 
-{ x: '-900px'}, 
-{  toggleActions: 'restart complete reverse reset',
-x: '1100px',
-repeat:-1,
-duration: 10}
-          
+{  scrollTrigger: {
+  trigger: ".spritesheet",
+  markers: true,
+  start: 'center 75%',
+    end: 'bottom 15%',
+  
+  toggleActions: 'reset',
+  onUpdate: (e) => {
+    window.addEventListener("scroll", function() {
+      body.classList.add('is-scrolling');
+      
+      marche.play();
+    });
+    
+    window.setInterval(function() {
+      body.classList.remove('is-scrolling')
+      
+      marche.pause();
+    
+    }, 100);
+}},
+x: '1700px',
+
+duration: 4}  
 ); 
+
+
+  
+
+
 
 const marche2 =   gsap.fromTo('.spritesheet2', 
 
 { x: '-900px'}, 
-{  toggleActions: 'restart complete reverse reset',
+{ 
 x: '1100px',
 repeat:-1,
 duration: 10}
           
 ); 
 
+
 let body=document.querySelector("body");
 window.addEventListener("scroll", function() {
   body.classList.add('is-scrolling');
-  marche.play();
+  
   marche2.play();
 });
 
 const minuteur = window.setInterval(function() {
   body.classList.remove('is-scrolling')
-  marche.pause()
-  marche2.pause()
+  
+  marche2.pause();
 
 }, 100);
 

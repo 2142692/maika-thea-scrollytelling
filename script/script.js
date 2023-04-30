@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
+let body=document.querySelector("body");
 const anim = 
 gsap.fromTo('.flech', 
 
@@ -62,30 +63,9 @@ duration: 4}
 
 
 
-const marche2 =   gsap.fromTo('.spritesheet2', 
-
-{ x: '-900px'}, 
-{ 
-x: '1100px',
-repeat:-1,
-duration: 10}
-          
-); 
 
 
-let body=document.querySelector("body");
-window.addEventListener("scroll", function() {
-  body.classList.add('is-scrolling');
-  
-  marche2.play();
-});
 
-const minuteur = window.setInterval(function() {
-  body.classList.remove('is-scrolling')
-  
-  marche2.pause();
-
-}, 100);
 
 
 /*chapitre 2*/
@@ -140,6 +120,28 @@ gsap.fromTo(".etoile.gros",
  ease: "none"});
 
 /*chapitre 5*/
+
+gsap.registerPlugin(MotionPathPlugin);
+gsap.to('.tomber', {
+  motionPath: {
+    align: '#ligne',
+    path: '#ligne',
+    autoRotate: true,
+    alignOrigin: [0.5, 0.5]
+  },
+  scrollTrigger: {
+    scrub: true,
+    markers: true,
+    
+    start: '90% 75%',
+    end: '2800px 45%',
+    trigger: '.tomber'},
+ duration:70,
+  
+ 
+  
+});
+
 gsap.fromTo('.nuage.no1', 
 
 { x: '-100%'}, 
@@ -175,20 +177,15 @@ duration: 15}
 );
 
 gsap.fromTo('.tomber',
-           { rotation: 0 },
+           { rotation: 0},
            { rotation: 360, 
            duration: 6, 
            repeat: -1,
            ease: "none"});
 
-           gsap.fromTo('.tomber', 
-
-{ y: '-35%'}, 
-{ repeat: -1,
-y: '250%',
-duration: 10}
           
-);
+          
+
 
 
 /*chapitre 6*/
@@ -217,3 +214,44 @@ duration: 1},"-=1")
            
  )
 
+/*chapitre 7*/
+gsap.to('#chap7', {
+  scrollTrigger: {
+  trigger: "#chap7",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
+
+
+  const marche2 =   gsap.to('.spritesheet2', 
+
+{  scrollTrigger: {
+  trigger: ".spritesheet2",
+  markers: true,
+  start: 'center 75%',
+    end: 'bottom 15%',
+  
+  toggleActions: 'reset',
+  onUpdate: (e) => {
+    window.addEventListener("scroll", function() {
+      body.classList.add('is-scrolling');
+      
+      marche2.play();
+    });
+    
+    window.setInterval(function() {
+      body.classList.remove('is-scrolling')
+      
+      marche2.pause();
+    
+    }, 100);
+}},
+x: '1800px',
+
+duration: 4}  
+); 

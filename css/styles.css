@@ -5,6 +5,7 @@
     --jaune:#FCFF80;
     --mauve:#7768D0;
     --rouge:#F6788F;
+    --rouge:#ff4daf;
 }
 
 
@@ -473,7 +474,13 @@ background-size: 100% 100%;
 
 }
 
+#chap7 svg{
+  position: relative;
+  width: 35%;
+  top:-1200px;
+right: -400px;
 
+}
 .spritesheet2{
   z-index: 1;
   position: relative;

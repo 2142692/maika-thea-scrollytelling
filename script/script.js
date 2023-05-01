@@ -257,32 +257,7 @@ duration: 1},"-=1")
 
 
 
- /*gsap.timeline().fromTo('.vole', 
 
- { y: '10%'}, 
- { 
-  
- y: '-150%',
- duration: 10}
-           
- )
-
- .fromTo('.oiseau', 
-
-{ x: '-100%'}, 
-{ 
-x: '1920px',
-duration: 1},"-=1")
-
-.to('.vole', 
-
- 
- { 
- y: '100%',
- duration: 1}
-           
- )
-*/
 /*chapitre 7*/
 gsap.to('#chap7', {
   scrollTrigger: {
@@ -324,3 +299,17 @@ x: '1800px',
 
 duration: 4}  
 ); 
+
+
+gsap.set("#dessin",{drawSVG:"0% 0%"});
+
+function ani() {
+  gsap.to(
+    "#dessin",
+    {
+      drawSVG:"0% 100%", 
+      duration:1, 
+      ease:"power1.inOut"
+    }
+  );
+}

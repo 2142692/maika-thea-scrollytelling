@@ -112,12 +112,25 @@ gsap.fromTo(".etoile.gros",
  repeat: -1, yoyo: true, });
 
  /*chapitre 4*/
- gsap.fromTo('.fall',
- { rotation: 0},
- { rotation: 12, 
+ gsap.to('.fall',
+ 
+ {  scrollTrigger: {
+  trigger: ".fall",
+  markers: true,
+  start: "10% 0%",
+  end: "0% 0%"
+  },
+  rotation: 12, 
  duration: 1, 
  repeat: -1, yoyo: true,
  ease: "none"});
+
+ gsap.to('.fall',{
+ 
+ }
+ 
+ )
+  
 
 /*chapitre 5*/
 
@@ -133,14 +146,21 @@ gsap.to('.tomber', {
     scrub: true,
     markers: true,
     
-    start: '90% 75%',
+    start: '87% 10%',
     end: '2800px 45%',
     trigger: '.tomber'},
  duration:70,
-  
  
-  
-});
+},
+
+);
+
+gsap.fromTo('.tomber',
+           { rotation: 0},
+           { rotation: 360, 
+           duration: 6, 
+           repeat: -1,
+           ease: "none"});
 
 gsap.fromTo('.nuage.no1', 
 
@@ -176,12 +196,6 @@ duration: 15}
           
 );
 
-gsap.fromTo('.tomber',
-           { rotation: 0},
-           { rotation: 360, 
-           duration: 6, 
-           repeat: -1,
-           ease: "none"});
 
           
           
@@ -189,10 +203,65 @@ gsap.fromTo('.tomber',
 
 
 /*chapitre 6*/
- gsap.timeline().fromTo('.vole', 
+
+
+gsap.to('#chap6', {
+  scrollTrigger: {
+  trigger: "#chap6",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
+
+gsap.timeline({
+scrollTrigger: {
+    
+  markers: true,
+  
+  start: 'center 75%',
+  end: "2300px 0%",
+  toggleActions: "restart complete reverse reset",
+  trigger: ".vole"},
+})
+.to('.vole', {
+  transformOrigin: '50% 50%',
+  motionPath: {
+    curviness: 0,
+    path: [
+      {x: 30, y: -10}, 
+      {x: 600, y: -120}
+    ]
+  },
+  duration: 5,
+})
+
+.to('.oiseau', 
+
+
+{ 
+x: '1920px',
+duration: 1},"-=1")
+
+.to('.vole', 
+
+ 
+ { 
+ y: '200%',
+ duration: 1}
+           
+ );
+
+
+
+ /*gsap.timeline().fromTo('.vole', 
 
  { y: '10%'}, 
  { 
+  
  y: '-150%',
  duration: 10}
            
@@ -213,7 +282,7 @@ duration: 1},"-=1")
  duration: 1}
            
  )
-
+*/
 /*chapitre 7*/
 gsap.to('#chap7', {
   scrollTrigger: {

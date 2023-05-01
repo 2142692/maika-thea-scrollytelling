@@ -320,7 +320,7 @@ main #chap4{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
   
-    height:1080px;
+    height:900px;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -341,14 +341,14 @@ background-size: 100% 100%;
 .fall{
   position: relative;
   width: 70%;
-  bottom:-14px;
+  bottom:144px;
   left:450px
 }
 
 .falaise{
     position: relative;
     width: 60%;
-    top: 830px;
+    top: 670px;
     z-index: 1;
 }
 
@@ -374,14 +374,15 @@ color: var(--jaune);
   position: relative;
   display: inline-block;
   width: 20%;
-  top: 0%;
+  top: 4%;
 right:0%;
-border: solid 2px red;
+border: solid 2px rgb(255, 242, 0);
 padding: 100;
 }
 
 #chap5 svg{
   position: relative;
+  
   bottom: 400px;
 right: -400px;
 }
@@ -420,12 +421,19 @@ main #chap6{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
     
-    height: 2400px;
+    height: 1000px;
 
 background-size: 100% 100%;
   background-position: 0 0;
 
 
+}
+
+
+#chap6 .nuage{
+  width: 15%;
+  position: relative;
+  z-index: 1;
 }
 
 #chap6 span{
@@ -436,17 +444,17 @@ background-size: 100% 100%;
 
 .oiseau{
   position: absolute;
-  right: 800px;
-  top: 0px;
-  width: 60%;
+  left: -370px;
+  top: 40px;
+  width: 30%;
   z-index: 2;
 }
 
 .vole{
   position: relative;
-  width: 60%;
- top: 700px;
-left:450px;
+  width: 25%;
+ top: 340px;
+left:-50%;
 
 }
 

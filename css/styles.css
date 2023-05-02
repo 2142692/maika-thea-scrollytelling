@@ -9,6 +9,7 @@
 }
 
 
+
 body{
    width: 1920px;
 height: 1080px;
@@ -24,6 +25,7 @@ height: 1080px;
 }
 
 header{
+  right: 160px;
     z-index: 1;
     position: relative;
     width: 100%;
@@ -66,12 +68,13 @@ left:500px;
 
  main{
 
-max-width: 1920px;
+max-width: 19200px;
 
 
 }
 
 main section{
+  right: 100px;
   position:relative;
   border: solid 1px red;
   width: 100%;
@@ -90,7 +93,7 @@ main section{
 
 /*chapitre 1*/
 main #chap1{
-
+  
     background-image: url("../img/img_arriere_plan/ciel.png");
     z-index: 2;
     position: relative;
@@ -164,32 +167,84 @@ main #chap2{
 
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
- 
-    height: 1080px;
- 
+  
+    height: 900px;
+    background-attachment: scroll;
 background-size: 100% 100%;
   background-position: 0 0;
 
 }
 
+#chap2 span{
+  top:90px
+}
+
+.layer{
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100vh;
+  
+}
+
+
+.nuage1{
+  background-image: url("../img/img_elements_visuels/nuage.png");
+  z-index:1;
+  background-size: 5%;
+  background-repeat:no-repeat;
+  background-position:47% 55%;
+  background-attachment: scroll;
+  transform:translateZ(-100px) scale(3);
+  }
+  
+
+.nuage2{
+background-image: url("../img/img_elements_visuels/nuage.png");
+z-index:11;
+background-size: 7%;
+background-repeat:no-repeat;
+background-position:55% 44%;
+background-attachment: scroll;
+transform:translateZ(-100px) scale(3);
+}
+
+.nuage3{
+  background-image: url("../img/img_elements_visuels/nuage.png");
+  z-index:11;
+  background-size: 10%;
+  background-repeat:no-repeat;
+  background-position:32% 50%;
+  background-attachment: scroll;
+  transform:translateZ(-100px) scale(3);
+  }
+  
+
 
 .montagne1{
-  position: absolute;
-  bottom:100px;
-  right: 300px;
-  width: 200%;
-  z-index: 2;
+  background-image: url("../img/img_elements_visuels/vert_montagne.png");
+  background-size: 70% ;
+  
+  background-repeat:no-repeat;
+  background-position:-10% 60%;
+  background-attachment: scroll;
+  transform:translateZ(-100px) scale(3);
+  z-index: 0;
 }
 
 .montagne2{
-  position: absolute;
-  bottom:100px;
-  left: 1150px;
-  width: 40%;
+  background-image: url("../img/img_elements_visuels/foncer_montagne.png");
+  background-size: 18% ;
+  background-repeat:no-repeat;
+  background-position:55% 66%;
+  background-attachment: scroll;
+  transform:translateZ(-100px) scale(3);
   z-index: 20;
 }
 
 .montagne3{
+  
   position: absolute;
   width: 100%;
   bottom:100px;

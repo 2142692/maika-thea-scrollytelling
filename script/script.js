@@ -59,17 +59,93 @@ duration: 4}
 ); 
 
 
-  
-
-
-
-
-
-
-
 
 /*chapitre 2*/
-gsap.timeline().fromTo('.petite', 
+
+gsap.to('#chap2', {
+  scrollTrigger: {
+  trigger: "#chap2",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
+  
+  gsap.to(".montagne1",{
+    backgroundPosition: "-10% 58%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".montagne1",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      markers: true
+  }
+  })
+
+  gsap.to(".montagne2",{
+    backgroundPosition: "60% 66%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".montagne2",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      markers: true
+  }
+  })
+
+  gsap.to(".nuage1",{
+    backgroundPosition: "49% 55%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".nuage1",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      markers: true
+  }
+  })
+
+  gsap.to(".nuage2",{
+    backgroundPosition: "56% 44%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".nuage2",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      markers: true
+  }
+  })
+
+  gsap.to(".nuage3",{
+    backgroundPosition: "30% 50%",
+    ease: "none",
+    scrollTrigger: {
+      trigger: ".nuage3",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: true,
+      markers: true
+  }
+  })
+
+  gsap.timeline({
+    scrollTrigger: {
+        
+      markers: true,
+      
+      start: 'center 75%',
+      end: "2300px 0%",
+      toggleActions: "restart complete reverse reset",
+      trigger: ".petite"},
+    })
+
+.fromTo('.petite', 
 
 { x: '0%', y:"0%"}, 
 { 

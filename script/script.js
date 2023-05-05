@@ -376,14 +376,13 @@ x: '1800px',
 duration: 4}  
 ); 
 
-
-gsap.set("#dessin",{drawSVG:"0% 0%"});
+gsap.set("#dessin",/*{drawSVG:"0% 0%"}*/);
 
 function ani() {
   gsap.to(
     "#dessin",
     {
-      drawSVG:"0% 100%", 
+     /* drawSVG:"0% 100%", */
       duration:1, 
       ease:"power1.inOut"
     }

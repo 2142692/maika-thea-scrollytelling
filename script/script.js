@@ -75,7 +75,7 @@ gsap.to('#chap2', {
   );
   
   gsap.to(".montagne1",{
-    backgroundPosition: "-10% 58%",
+    backgroundPosition: "-10% 50%",
     ease: "none",
     scrollTrigger: {
       trigger: ".montagne1",
@@ -87,7 +87,7 @@ gsap.to('#chap2', {
   })
 
   gsap.to(".montagne2",{
-    backgroundPosition: "60% 66%",
+    backgroundPosition: "60% 58%",
     ease: "none",
     scrollTrigger: {
       trigger: ".montagne2",

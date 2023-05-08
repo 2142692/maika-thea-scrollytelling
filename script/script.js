@@ -386,3 +386,22 @@ function ani() {
     }
   );
 }*/
+
+gsap.from(
+  "#dessin", 
+  {scrollTrigger: {
+    trigger: "#dessin",
+    markers: true,
+    
+    start: 'center 75%',
+      end: 'bottom 15%',
+    },
+    toggleActions: 'reset',
+    drawSVG:"0% 0%", 
+    duration:10, 
+    ease:"power1.inOut",
+  
+  },
+  
+);
+

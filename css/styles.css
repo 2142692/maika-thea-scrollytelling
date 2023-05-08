@@ -598,7 +598,7 @@ main #chap8{
     background-image: url("../img/img_arriere_plan/ciel_apres_tomber.png");
     position: relative;
   
-    height: 1080px;
+    height: 1000px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -609,13 +609,12 @@ background-size: 100% 100%;
 #chap8 svg{
   position: relative;
   width: 35%;
-  top:15px;
+  top:-145px;
 left: 174px;
-
 }
 .couple{
   position: absolute;
-  top:390px;
+  top:245px;
   right:380px;
   
   width: 65%;
@@ -630,12 +629,13 @@ bottom:200px;
 .coline{
     position: relative;
     width: 100%;
-    bottom:-80%;
+    height: 30%;
+    bottom:-70%;
 }
 
 .corde{
   position: relative;
-  top:230px;
+  top:70px;
   left: 527px;
 }
 

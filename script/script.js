@@ -427,6 +427,7 @@ gsap.registerPlugin(MorphSVGPlugin);
   scrollTrigger: {
     trigger: "#morph",
     markers: true,
+    scrub: true,
     togglesActions: 'reset',
     start: 'center 75%',
       end: 'bottom 15%',

@@ -75,7 +75,7 @@ gsap.to('#chap2', {
   );
   
   gsap.to(".montagne1",{
-    backgroundPosition: "-10% 58%",
+    backgroundPosition: "-10% 50%",
     ease: "none",
     scrollTrigger: {
       trigger: ".montagne1",
@@ -87,7 +87,7 @@ gsap.to('#chap2', {
   })
 
   gsap.to(".montagne2",{
-    backgroundPosition: "60% 66%",
+    backgroundPosition: "60% 58%",
     ease: "none",
     scrollTrigger: {
       trigger: ".montagne2",
@@ -167,7 +167,6 @@ x: '77%', y:"-5%", duration: 2})
 
 .to('.petite', 
 { x: '204%', y:"-20%", duration: 2});
-
 
 
 
@@ -376,8 +375,7 @@ x: '1800px',
 duration: 4}  
 ); 
 
-
-gsap.set("#dessin",{drawSVG:"0% 0%"});
+/*gsap.set("#dessin",{drawSVG:"0% 0%"});
 
 function ani() {
   gsap.to(
@@ -388,4 +386,4 @@ function ani() {
       ease:"power1.inOut"
     }
   );
-}
+}*/

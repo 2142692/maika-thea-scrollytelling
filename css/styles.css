@@ -68,7 +68,7 @@ left:500px;
 
  main{
 
-max-width: 19200px;
+max-width: 1920px;
 
 
 }
@@ -168,7 +168,7 @@ main #chap2{
     background-image: url("../img/img_arriere_plan/coucher_soleil.png");
     position: relative;
   
-    height: 900px;
+    height: 1000px;
     background-attachment: scroll;
 background-size: 100% 100%;
   background-position: 0 0;
@@ -184,7 +184,7 @@ background-size: 100% 100%;
   position:absolute;
   top:0;
   left:0;
-  height:100vh;
+  height:900px;
   
 }
 
@@ -606,6 +606,13 @@ background-size: 100% 100%;
 
 }
 
+#chap8 svg{
+  position: relative;
+  width: 35%;
+  top:60px;
+left: 175px;
+
+}
 .couple{
   position: absolute;
   top:390px;
@@ -626,10 +633,10 @@ bottom:200px;
     bottom:-80%;
 }
 
-.coeur{
+.corde{
   position: relative;
-  bottom:500px;
-  right: 20px;
+  top:230px;
+  left: 527px;
 }
 
 
@@ -641,6 +648,10 @@ main #fin{
 top:60px;
 background-size: 100% 100%;
 background-position: 0 0;
+}
+
+#coeur{
+  visibility:hidden;
 }
 
 #fin span{

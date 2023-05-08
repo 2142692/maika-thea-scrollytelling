@@ -387,27 +387,48 @@ function ani() {
   );
 }*/
 
-gsap.from(
+const dessin = gsap.from(
   "#dessin", 
-  {scrollTrigger: {
-    trigger: "#dessin",
-    markers: true,
-    
-    start: 'center 75%',
-      end: 'bottom 15%',
-    },
+  {
     toggleActions: 'reset',
     drawSVG:"0% 0%", 
     duration:10, 
     ease:"power1.inOut",
-  
+    scrollTrigger: {
+      trigger: "#dessin",
+      markers: true,
+      scrub:true,
+      start: 'center 75%',
+        end: 'bottom 15%',
+      },
   },
-  
 );
 
-gsap.registerPlugin(MorphSVGPlugin);
- gsap.to("svg#rond", { 
-  morphSVG: "svg#coeur",
-  duration:10
-});
 
+/*chapitre 8*/
+
+gsap.to('#chap8', {
+  scrollTrigger: {
+  trigger: "#chap8",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
+  
+
+gsap.registerPlugin(MorphSVGPlugin);
+ gsap.to("#rond", { 
+  morphSVG: "#coeur",
+  duration:5,
+  scrollTrigger: {
+    trigger: "#morph",
+    markers: true,
+    togglesActions: 'reset',
+    start: 'center 75%',
+      end: 'bottom 15%',
+    },
+});

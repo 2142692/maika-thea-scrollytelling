@@ -87,7 +87,7 @@ gsap.to('#chap2', {
   })
 
   gsap.to(".montagne2",{
-    backgroundPosition: "60% 58%",
+    backgroundPosition: "60% 65%",
     ease: "none",
     scrollTrigger: {
       trigger: ".montagne2",
@@ -167,7 +167,6 @@ x: '77%', y:"-5%", duration: 2})
 
 .to('.petite', 
 { x: '204%', y:"-20%", duration: 2});
-
 
 
 /*chapitre 3*/

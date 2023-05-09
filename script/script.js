@@ -28,14 +28,14 @@ pin: true
 
 
 /*spritesheet*/
-const sprite = document.querySelector(".spritesheet");
+
 let isScrolling;
 const marche =   gsap.to('.spritesheet', 
 
 {  scrollTrigger: {
   trigger: ".spritesheet",
   markers: true,
-  start: 'center 75%',
+  start: 'center 0%',
     end: 'bottom 15%',
   
   toggleActions: 'reset',
@@ -452,7 +452,7 @@ gsap.registerPlugin(MorphSVGPlugin);
     markers: true,
     scrub: true,
     togglesActions: 'reset',
-    start: 'center 75%',
-      end: 'bottom 15%',
+    start: '0% 0%',
+      end: '2300px 0%',
     },
 });

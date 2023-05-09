@@ -278,7 +278,7 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
   
-    height: 800px;
+    height: 990px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -378,7 +378,7 @@ main #chap4{
     background-image: url("../img/img_arriere_plan/ciel.png");
     position: relative;
   
-    height:900px;
+    height:990px;
  
 background-size: 100% 100%;
   background-position: 0 0;
@@ -644,8 +644,8 @@ main #fin{
 
   background-image: url("../img/img_arriere_plan/ciel_nuit.png");
   position: relative;
-  height: 990px;
-top:60px;
+  height: 1000px;
+
 background-size: 100% 100%;
 background-position: 0 0;
 }

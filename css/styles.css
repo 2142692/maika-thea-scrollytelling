@@ -278,7 +278,7 @@ main #chap3{
     background-image: url("../img/img_arriere_plan/ciel_nuit.png");
     position: relative;
   
-    height: 1200px;
+    height: 800px;
 
 background-size: 100% 100%;
   background-position: 0 0;
@@ -293,7 +293,7 @@ background-size: 100% 100%;
 .face{
   position: absolute;
   width: 65%;
-  right: 350px;
+  right: 390px;
   bottom: 0px;
   z-index: 1;
 }

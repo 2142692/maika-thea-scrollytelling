@@ -185,6 +185,18 @@ gsap.fromTo(".etoile.gros",
  duration: 1, 
  repeat: -1, yoyo: true, });
 
+ gsap.to('#chap3', {
+  scrollTrigger: {
+  trigger: "#chap3",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
+
  /*chapitre 4*/
  gsap.to('.fall',
  
@@ -205,6 +217,17 @@ gsap.fromTo(".etoile.gros",
  
  )
   
+ gsap.to('#chap4', {
+  scrollTrigger: {
+  trigger: "#chap4",
+  markers: true,
+  start: "0% 0%",
+  end: "2300px 0%",
+  pin: true
+  }
+  }
+  
+  );
 
 /*chapitre 5*/
 

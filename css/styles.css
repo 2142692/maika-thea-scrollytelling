@@ -6,6 +6,7 @@
     --mauve:#7768D0;
     --rouge:#F6788F;
     --rouge:#ff4daf;
+    --rouge:#ffffff00;
 }
 
 
@@ -424,8 +425,8 @@ background-size: 100% 100%;
 }
 
 #chap5 span{
- top:100px;
-color: var(--jaune);
+ top:50px;
+
 }
 
 .tomber{
@@ -434,7 +435,7 @@ color: var(--jaune);
   width: 20%;
   top: 4%;
 right:0%;
-border: solid 2px rgb(255, 242, 0);
+
 padding: 100;
 }
 
@@ -449,6 +450,7 @@ right: -400px;
   width: 40%;
   position: relative;
   z-index: 1;
+  opacity: 70%;
 }
 
 .nuage.no1{

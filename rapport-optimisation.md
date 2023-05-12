@@ -21,6 +21,11 @@ La largeur et la hauteur des images ne sont pas explicite. il faut qu'il soit ex
 ### Action concrète pour résoudre le problème
 pour les images, peut-être utiliser une autre mesure que du px, et plus du vh, vw et du pourcentage.
 
+### Résultat
+https://pagespeed.web.dev/analysis/https-2142692-github-io-maika-thea-scrollytelling/ya69r8ymcv?form_factor=mobile
+
+ça n'a pas du tout marcher même que la performance à baisser
+
 ## Problème #3
 ### Impact du code tiers
 Il faut réduire cette impact du code tiers pour que les chargement de la page soit plus performant.

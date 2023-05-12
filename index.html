@@ -33,12 +33,33 @@
  </header>
 
 <main>
-    <section id="chap1"><span>Smiley est une petite boule jaune qui se promène </br>pour explorer de 
+    <section id="chap1"><ul class="technique-gsap"> 
+        <li>animation du spritesheet sur la position x</li> 
+        <li>le sprite s'anime quand le body contient la class .is-scrolling</li> 
+        <li>scrollTrigger 
+            <ul> 
+                <li>trigger=chap1</li> 
+                <li>pin=true, pour que le chapitre reste figer pendant l'animation</li> 
+                <li>toggleActions paramétré pour que le personnage reset quand on redescend</li> 
+            </ul> 
+        </li> 
+    </ul> <span>Smiley est une petite boule jaune qui se promène </br>pour explorer de 
         nouvelle chose.
     </span><div class="spritesheet"></div>
         <img src="img/img_elements_visuels/gazon.png" class="gaz" alt="gaz">
         <img src="img/img_elements_visuels/soleil.png" class="jour" alt="jour"></section>
-    <section id="chap2">
+    <section id="chap2"><ul class="technique-gsap"> 
+        <li>timeline du personnage sur la position x et y</li> 
+        <li>effet parallax avec arrière-plan</li> 
+        <li>scrollTrigger 
+            <ul> 
+                <li>trigger=chap2</li> 
+                <li>pin=true, pour que le chapitre reste figer pendant l'animation</li> 
+                <li>scrub=true pour que parallax s'active en même temps que le scroll</li> 
+                <li>toggleActions paramétré pour que le personnage joue sens inverse quand on sroll-up et va dans le bonsens si on le refait descendre</li> 
+            </ul> 
+        </li> 
+    </ul>
         <span>Il alla jusqu'au bout du monde il traversa les montagne,</br> sous la vue du merveilleux paysage.</span>
         
         <img src="img/img_elements_visuels/gazon_coucher_soleil.png" class="gazon" alt="gazon">
@@ -50,7 +71,16 @@
         <div class="layer nuage2"></div>
         <div class="layer nuage3"></div>
     </section>
-    <section id="chap3">
+    <section id="chap3"><ul class="technique-gsap"> 
+        <li>animation automatique des étoiles</li> 
+        <li>animation des étoiles scaleX et scaleY</li> 
+        <li>scrollTrigger 
+            <ul> 
+                <li>trigger=chap3</li> 
+                <li>pin=true, pour que le chapitre reste figer</li> 
+            </ul> 
+        </li> 
+    </ul>
         <span>Souvent il s'arrêta pour contempler les étoiles, Smiley adorait sa vie.</span>
         <img src="img/img_elements_visuels/etoile.png" class="etoile gros no1" alt="etoile1">
         <img src="img/img_elements_visuels/etoile.png" class="etoile gros no2" alt="etoile2">
@@ -64,12 +94,36 @@
         <img src="img/img_elements_visuels/lune.png" class="lune" alt="lune">
         <img src="img/img_personnages/face.png" class="face" alt="face">
     </section>
-    <section id="chap4"><span>Mais un jour pendant que Smiley escaladait les montagnes, il n'a pas fais gaffe </br> à la falaise. Il tenta de tenir l'équilibre pour ne pas tomber. :O</span>
+    <section id="chap4">
+        <ul class="technique-gsap"> 
+            <li>animation: rotate</li> 
+            <li>yoyo et un repeat infini, le ease est none</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger=chap4</li> 
+                    <li>pin=true, pour que le chapitre reste figer</li> 
+                </ul> 
+            </li> 
+        </ul>
+        <span>Mais un jour pendant que Smiley escaladait les montagnes, il n'a pas fais gaffe </br> à la falaise. Il tenta de tenir l'équilibre pour ne pas tomber. :O</span>
         <img src="img/img_elements_visuels/falaise.png" class="falaise" alt="falaise">
         <img src="img/img_personnages/fall.png" class="fall" alt="fall">
         <img src="img/img_elements_visuels/soleil.png" class="solei" alt="solei"></section>
     </section>
-        <section id="chap5"><span>Malheureusement pour Smiley il perda l'équilibre et tomba!!!</span>
+        <section id="chap5">
+            <ul class="technique-gsap"> 
+                <li>motionpath</li> 
+                <li>nuage automatique et infinie</li> 
+                <li>personnage rotation autommatique infinie</li>
+                <li>scrollTrigger 
+                    <ul> 
+                        <li>trigger=personnage</li> 
+                        <li>scrub=true, pour que le personnage suivre le rythme et le sens du scroll</li> 
+                        <li>pin=false pour que l'on défile la page toute seule</li> 
+                    </ul> 
+                </li> 
+            </ul>
+            <span>Malheureusement pour Smiley il perda l'équilibre et tomba!!!</span>
            
             <img src="img/img_elements_visuels/nuage.png" class="nuage no1" alt="nuage">
             <img src="img/img_elements_visuels/nuage.png" class="nuage no2" alt="nuage">
@@ -81,7 +135,19 @@
                 <path id="ligne" d="M1 0V2376" stroke="none"/>
                 </svg>
         </section>
-    <section id="chap6"><span>Soudain, un ballon le rattrape au vole et lui sauve la vie.</br></br></br></br>
+    <section id="chap6">
+        <ul class="technique-gsap"> 
+            <li>timeline en trois étape avec la position x et y</li> 
+            <li>motionpathe</li> 
+            <li>scrollTrigger 
+                <ul>
+                    <li>trigger=chap6</li> 
+                    <li>pin=true, pour que le chapitre reste figer pendant l'animation</li> 
+                    <li>toggleActions paramétré pour que le personnage joue sens inverse quand on sroll-up et va dans le bonsens si on le refait descendre</li> 
+                </ul> 
+            </li> 
+        </ul>
+        <span>Soudain, un ballon le rattrape au vole et lui sauve la vie.</br></br></br></br>
     Mais, tout un coup un oiseau éclate le ballon et Smiley rechute.</span>
         <img src="img/img_elements_visuels/nuage.png" class="nuage no1" alt="nuage">
         <img src="img/img_elements_visuels/nuage.png" class="nuage no2" alt="nuage">
@@ -91,6 +157,19 @@
         <img src="img/img_elements_visuels/oiseau.png" class="oiseau" alt="oiseau">
     </section>
     <section id="chap7">
+        <ul class="technique-gsap"> 
+            <li>drawSVG</li> 
+            <li>animation du spritesheet sur la position x</li> 
+            <li>le sprite s'anime quand le body contient la class .is-scrolling</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger=chap7</li> 
+                    <li>scrub true pour que le dessin s'anime en même temps que le sroll, ease: power1.inOut</li> 
+                    <li>pin=true, pour que le chapitre reste figer pendant l'animation</li> 
+                    <li>toggleActions paramétré pour que le personnage reset quand on redescend</li> 
+                </ul> 
+            </li> 
+        </ul>
         <span>Juste avant de toucher le sol un autre ballon vient amortir sa </br>chute et Smiley continue à marcher</span>
         <img src="img/img_elements_visuels/sol_apres_tomber.png" class="sol" alt="sol">
         <img src="img/img_elements_visuels/soleil.png" class="soleil" alt="soleil">
@@ -99,7 +178,18 @@
             <path id="dessin" d="M4 873.5C136 826 915.5 549.001 915.5 280.501C915.5 12.0002 753.5 12.0003 659 12.0003C564.5 12.0003 412.5 116.5 412.5 280.5C412.5 444.501 609 543.1 694 552.833C779 562.566 1376.5 786 1376.5 786" stroke="#ff4daf" stroke-width="23"/>
             </svg>
     </section>
-    <section id="chap8"><span>Au bout de sa marche il rencontra une jolie demoiselle, et le ballon </br>se transforma en coeur.</span>
+    <section id="chap8">
+        <ul class="technique-gsap"> 
+            <li>morphing</li> 
+            <li>scrollTrigger 
+                <ul> 
+                    <li>trigger=chap8</li> 
+                    <li>scrub true pour que le morphing s'anime en même temps que le sroll</li> 
+                    <li>pin=true, pour que le chapitre reste figer pendant l'animation</li> 
+                </ul> 
+            </li> 
+        </ul>
+        <span>Au bout de sa marche il rencontra une jolie demoiselle, et le ballon </br>se transforma en coeur.</span>
         <img src="img/img_elements_visuels/coline_bizzare.png" class="coline" alt="coline">
         <img src="img/img_elements_visuels/soleil.png" class="soleil" alt="soleil">
         <img src="img/img_elements_visuels/corde 1.png" class="corde" alt="corde">

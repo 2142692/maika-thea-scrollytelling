@@ -22,7 +22,6 @@ end: "2300px 0%",
 pin: true
 }
 }
-
 );
 
 
@@ -251,6 +250,8 @@ gsap.to('.tomber', {
 },
 
 );
+
+
 
 gsap.fromTo('.tomber',
            { rotation: 0},

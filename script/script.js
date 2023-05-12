@@ -400,7 +400,7 @@ duration: 4}
 
 
 
-const dessin = gsap.from(
+/*const dessin = gsap.from(
   "#dessin", 
   {
     toggleActions: 'reset',
@@ -415,7 +415,7 @@ const dessin = gsap.from(
         end: 'bottom 15%',
       },
   },
-);
+);*/
 
 
 /*chapitre 8*/
@@ -433,7 +433,7 @@ gsap.to('#chap8', {
   );
   
 
-gsap.registerPlugin(MorphSVGPlugin);
+/*gsap.registerPlugin(MorphSVGPlugin);
  gsap.to("#rond", { 
   morphSVG: "#coeur",
   duration:5,
@@ -445,4 +445,4 @@ gsap.registerPlugin(MorphSVGPlugin);
     start: '0% 0%',
       end: '2300px 0%',
     },
-});
+});*/

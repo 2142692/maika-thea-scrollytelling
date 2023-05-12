@@ -9,6 +9,11 @@ La charge est trop grosse il faut minimiser la taille.
 ### Action concrète pour résoudre le problème
 Il faut minimiser le fichier css et le fichier js.
 
+### Résultat
+https://pagespeed.web.dev/analysis/https-2142692-github-io-maika-thea-scrollytelling/lwhv45nj1q?form_factor=desktop
+
+Le résultat a fonctionner, j'ai minimiser le fichiercss et js. Grâce à ça le total blocking time est passer de 610 ms à 430 ms. La charge à diminué.
+
 ## Problème #2
 ### Pas de width et height sur les images
 La largeur et la hauteur des images ne sont pas explicite. il faut qu'il soit explicite pour que la mise en page soit bien décaler.
@@ -22,3 +27,8 @@ Il faut réduire cette impact du code tiers pour que les chargement de la page s
 
 ### Action concrète pour résoudre le problème
 il limiter le code tiers pour avoir moins de fournisseur. il faut minimiser ce code pour une meilleur performance
+
+### Résultat
+https://pagespeed.web.dev/analysis/https-2142692-github-io-maika-thea-scrollytelling/lwhv45nj1q?form_factor=desktop
+
+le code tiers ne marche pas, le code ne se minimise pas.

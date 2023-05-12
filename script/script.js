@@ -429,7 +429,6 @@ gsap.to('#chap8', {
   pin: true
   }
   }
-  
   );
   
 
